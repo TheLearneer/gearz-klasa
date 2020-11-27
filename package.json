@@ -1,0 +1,38 @@
+{
+  "name": "gearz",
+  "private": true,
+  "version": "4.0.0",
+  "description": "Multipurpose discord bot to provide quality time on discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm run dev:win",
+    "dev:win": "set DEV=true && node index.js",
+    "test": "node test/test",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "gearz",
+    "klasa",
+    "fun",
+    "moderation",
+    "Image manipulation"
+  ],
+  "author": "Santosh Bhandari <contact@santoshb.com.np> (https://santoshb.com.np)",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+    "canvas-constructor": "^1.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "github:discordjs/discord.js#master",
+    "klasa": "github:dirigeants/klasa#master",
+    "klasa-dashboard-hooks": "github:dirigeants/klasa-dashboard-hooks",
+    "klasa-member-gateway": "github:dirigeants/klasa-member-gateway",
+    "node-fetch": "^2.2.0",
+    "pg": "^7.4.3",
+    "ytdl-core": "^0.20.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
+}
